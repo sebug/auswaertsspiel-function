@@ -18,4 +18,11 @@ The web app we're going to do as a standard Flask app:
 	export FLASK_APP=app.py
 	bin/flask run
 
+I want to link the Github repository to the Azure WebApp now, so let's do that (outside the venv, in the folder WebApp)
+
+	az webapp up --sku S1 -n AS-Web -g AuswaertsSpiel -l SwitzerlandNorth
+
+This gave me the URL of the webapp. Going there, it prompts to set up deployment. I selected continuous deployment. I selected Github, and then Azure pipelines.
+
+
 
