@@ -24,5 +24,6 @@ I want to link the Github repository to the Azure WebApp now, so let's do that (
 
 This gave me the URL of the webapp. Going there, it prompts to set up deployment. I selected continuous deployment. I selected Github, and then Azure pipelines.
 
+For the logging, I had to add a storage account auswaertsspielweb. I also created a logs container to put the logs in.
 
 
